@@ -22,3 +22,8 @@ class Butom:
                     self.pos[1] <= m_pos[1] <= self.pos[1] + self.size[1]):
                     return True
         return False
+
+    def run(self):
+        """Réunis toutes les méthode de la classe pour envoyer qu'une requette"""
+        self.draw()
+        self.click()
