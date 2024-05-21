@@ -3,7 +3,7 @@ import pygame
 from scripts import classes
 
 
-class Bouton:
+class Butom:
     def __init__(self, pos, size):
         """Classe bouton pour les boutons"""
         self.pos = pos
