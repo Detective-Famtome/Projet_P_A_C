@@ -5,3 +5,7 @@ def get_color():
     GREEN = (0, 255, 0)
     RED = (255, 0, 0)
     return BLACK, WHITE, GREEN, RED
+
+def setup_pygame():
+    """Lignes de commandes pour setup pygame"""
+    pass
