@@ -24,25 +24,25 @@ done = False
 clock = pygame.time.Clock()
 
 # Paths to images
-bg_img_path = "projet_pac\\G_Propre_projet\\images\\fonds\\menu.jpg"
+bg_img_path = "\\projet_pac\\G_Propre_projet\\images\\fonds\\menu.jpg"
 esc_img_path = "images\\boutons\\keyboard_escape_outline.png"
 to_quit_img_path = "images\\boutons\\to_quit.png"
 # Load images
 
-if not os.path.exists(bg_img_path):
+"""if not os.path.exists(bg_img_path):
     print(f"Error: The file '{bg_img_path}' does not exist.")
     pygame.quit()
-    exit()
+    exit()"""
 
-if not os.path.exists(esc_img_path):
+"""if not os.path.exists(esc_img_path):
     print(f"Error: The file '{esc_img_path}' does not exist.")
     pygame.quit()
-    exit()
+    exit()"""
 
-if not os.path.exists(to_quit_img_path):
+"""if not os.path.exists(to_quit_img_path):
     print(f"Error: The file '{to_quit_img_path}' does not exist.")
     pygame.quit()
-    exit()
+    exit()"""
 
 bg_img = pygame.image.load(bg_img_path)
 esc_img = pygame.image.load(esc_img_path)
