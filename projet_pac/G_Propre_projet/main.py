@@ -24,9 +24,9 @@ done = False
 clock = pygame.time.Clock()
 
 # Paths to images
-bg_img_path = "images/fonds/menu.jpg"
-esc_img_path = "images/boutons/keyboard_escape_outline.png"
-to_quit_img_path = "images/boutons/to_quit.png"
+bg_img_path = "projet_pac\\G_Propre_projet\\images\\fonds\\menu.jpg"
+esc_img_path = "images\\boutons\\keyboard_escape_outline.png"
+to_quit_img_path = "images\\boutons\\to_quit.png"
 # Load images
 
 if not os.path.exists(bg_img_path):
