@@ -5,7 +5,7 @@ import scripts
 # main program of our own first game ''
 
 # Define some colors
-BLACK, WHITE, GREEN, RED = scripts.defs()
+BLACK, WHITE, GREEN, RED = scripts.defs.get_color()
 
 pygame.init()
 
