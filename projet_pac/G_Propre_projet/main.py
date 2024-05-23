@@ -29,7 +29,7 @@ esc_img_path = "projet_pac/G_Propre_projet/images/boutons/keyboard_escape_outlin
 to_quit_img_path = "projet_pac/G_Propre_projet/images/boutons/to_quit.png"
 # Load images
 
-"""if not os.path.exists(bg_img_path):
+if not os.path.exists(bg_img_path):
     print(f"Error: The file '{bg_img_path}' does not exist.")
     pygame.quit()
     exit()
@@ -42,7 +42,7 @@ if not os.path.exists(esc_img_path):
 if not os.path.exists(to_quit_img_path):
     print(f"Error: The file '{to_quit_img_path}' does not exist.")
     pygame.quit()
-    exit()"""
+    exit()
 
 bg_img = pygame.image.load(bg_img_path)
 esc_img = pygame.image.load(esc_img_path)
@@ -76,7 +76,7 @@ while not done:
     pygame.display.flip()
  
     # --- Limit to 60 frames per second
-    clock.tick(60)
+    pygame.time.Clock().tick(60)
  
 # Close the window and quit.
 pygame.quit()
