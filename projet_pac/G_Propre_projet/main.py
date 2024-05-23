@@ -65,7 +65,7 @@ while not done:
  
     # If you want a background image, replace this clear with blit'ing the
     # background image.
-    screen.fill(WHITE)
+    screen.blit(bg_img, (0, 0)
     screen.blit(bg_img, (0, 0))  # Draw the background image
     screen.blit(esc_img, (10, 10))  # Draw the esc image at position (100, 100)
     screen.blit(to_quit_img, (50, 10))
