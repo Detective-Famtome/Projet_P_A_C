@@ -1,13 +1,11 @@
 import pygame
 import os
+import scripts
 
 # main program of our own first game ''
 
 # Define some colors
-BLACK = (0, 0, 0)
-WHITE = (255, 255, 255)
-GREEN = (0, 255, 0)
-RED = (255, 0, 0)
+BLACK, WHITE, GREEN, RED = scripts.defs()
 
 pygame.init()
 
