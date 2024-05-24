@@ -8,4 +8,13 @@ def get_color():
 
 def setup_pygame():
     """Lignes de commandes pour setup pygame"""
-    pass
+    # Set the width and height of the
+    screen [width, height]
+    size = (1920, 1080)
+    screen = pygame.display.set_mode(size)
+
+    pygame.display.set_caption("Not any point and click")
+
+    # Used to manage how fast the screen updates
+    clock = pygame.time.Clock()
+    return screen, clock
