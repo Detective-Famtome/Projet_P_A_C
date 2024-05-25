@@ -14,31 +14,7 @@ screen, clock = scripts.defs.setup_pygame()
 # Loop until the user clicks the close button.
 done = False
 
-# Paths to images
-bg_img_path = "projet_pac/G_Propre_projet/images/fonds/menu.jpg"
-esc_img_path = "projet_pac/G_Propre_projet/images/boutons/keyboard_escape_outline.png"
-to_quit_img_path = "projet_pac/G_Propre_projet/images/boutons/to_quit.png"
-# Load images
-
-if not os.path.exists(bg_img_path):
-    print(f"Error: The file '{bg_img_path}' does not exist.")
-    pygame.quit()
-    exit()
-
-if not os.path.exists(esc_img_path):
-    print(f"Error: The file '{esc_img_path}' does not exist.")
-    pygame.quit()
-    exit()
-
-if not os.path.exists(to_quit_img_path):
-    print(f"Error: The file '{to_quit_img_path}' does not exist.")
-    pygame.quit()
-    exit()
-
-bg_img = pygame.image.load(bg_img_path)
-esc_img = pygame.image.load(esc_img_path)
-to_quit_img = pygame.image.load(to_quit_img_path)
-
+bg_img, esc_img, to_quit_img = scripts.def.imgs()
 # ------------------------------------------------------------------------------------------------------- Main Program Loop ----------------------------------------------------------------------------------------------
 
 while not done:
