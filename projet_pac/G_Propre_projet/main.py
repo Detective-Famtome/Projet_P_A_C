@@ -1,5 +1,4 @@
 import pygame
-import os
 import scripts
 
 # main program of our own first game ''
