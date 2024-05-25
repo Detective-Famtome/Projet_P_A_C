@@ -9,7 +9,7 @@ BLACK, WHITE, GREEN, RED = scripts.defs.get_color()
 
 pygame.init()
 
-screen, clock = scripts.defs.pygame_setup()
+screen, clock = scripts.defs.setup_pygame()
 
 # Loop until the user clicks the close button.
 done = False
