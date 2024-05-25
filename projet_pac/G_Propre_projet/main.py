@@ -9,17 +9,10 @@ BLACK, WHITE, GREEN, RED = scripts.defs.get_color()
 
 pygame.init()
 
-# Set the width and height of the screen [width, height]
-size = (1920, 1080)
-screen = pygame.display.set_mode(size)
-
-pygame.display.set_caption("Not any point and click")
+screen, clock = scripts.defs.pygame_setup()
 
 # Loop until the user clicks the close button.
-done = False
-
-# Used to manage how fast the screen updates
-clock = pygame.time.Clock()
+done = False
 
 # Paths to images
 bg_img_path = "projet_pac/G_Propre_projet/images/fonds/menu.jpg"
